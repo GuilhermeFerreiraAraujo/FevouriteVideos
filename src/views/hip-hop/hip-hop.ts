@@ -54,4 +54,8 @@ export class HipHop{
       "link": "https://www.youtube.com/embed/ubWL8VAPoYw"
     }
   ]
+
+  removeSong(index){
+    this.songs.splice(index, 1);
+  }
 }

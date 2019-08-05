@@ -12,4 +12,7 @@ export class DrumAndBass {
     "link": "https://www.youtube.com/embed/avaSdC0QOUM"
   }];
 
+  removeSong(index){
+    this.songs.splice(index, 1);
+  }
 }

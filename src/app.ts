@@ -28,32 +28,11 @@ export class App {
         title: 'Hip Hop'
       }, 
       {
-        route: 'kizomba',
-        name: 'kizomba',
-        moduleId: './views/kizomba/kizomba',
-        nav: true,
-        title: 'Kizomba'
-      },
-      {
         route: 'reggae',
         name: 'raggae',
         moduleId: './views/reggae/reggae',
         nav: true,
         title: 'Reggae'
-      },
-      {
-        route: 'sertanejo',
-        name: 'sertanejo',
-        moduleId: './views/sertanejo/sertanejo',
-        nav: true,
-        title: 'Sertanejo'
-      },
-      {
-        route: 'forro',
-        name: 'forro',
-        moduleId: './views/forro/forro',
-        nav: true,
-        title: 'Forro'
       },
       {
         route: 'drum-and-bass',
@@ -68,13 +47,6 @@ export class App {
         moduleId: './views/punk-rock/punk-rock',
         nav: true,
         title: 'Punk Rock'
-      }, 
-      {
-        route: 'pimba',
-        name: 'pimba',
-        moduleId: './views/pimba/pimba',
-        nav: true,
-        title: 'Pimba'
       }
     ]);
 
