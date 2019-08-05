@@ -173,3 +173,14 @@ div.au-stagger {
     opacity: 1;
   }
 }
+
+.nav-header{
+  padding-top: 10px;
+  height: 60px;
+  background-color: #D3D3D3;
+  padding-right: 30px;
+}
+
+.new-button{
+  width: 200px;
+}

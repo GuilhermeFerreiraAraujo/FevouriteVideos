@@ -1,13 +1,15 @@
 <template>
   <require from="components/video-card/video-card"></require>
 
-  <div class="row text-center">
+  <div class="nav-header text-right">
+    <button class="btn btn-success margin-top new-button" click.trigger="new()">New</button>
+  </div>
 
+  <div class="row text-center">
     <div repeat.for="song of songs" class="col-md-3">
       <div class="row" style="margin-top:10px;">
         <div class="btn btn-danger" style="width:300px;" click.delegate="removeSong($index,1)">Delete</div>
       </div>
-
       <video-card song.bind="song"></video-card>
     </div>
   </div>

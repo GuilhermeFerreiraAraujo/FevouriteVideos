@@ -1,6 +1,9 @@
 <template>
-
   <require from="components/video-card/video-card"></require>
+
+  <div class="nav-header text-right">
+    <button class="btn btn-success margin-top new-button" click.trigger="new()">New</button>
+  </div>
 
   <div class="row text-center">
     <div repeat.for="song of songs" class="col-md-3">
